@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-component-library',
   template: `
     <p>
-      component-library works!
+      <my-component first="jony" last="matos"></my-component>
     </p>
   `,
   styles: [
